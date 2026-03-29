@@ -1,0 +1,55 @@
+# 🔹 Python cache & compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 🔹 Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# 🔹 VS Code settings
+.vscode/
+
+# 🔹 Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# 🔹 Logs & temp files
+*.log
+*.tmp
+*.temp
+
+# 🔹 OS files
+.DS_Store
+Thumbs.db
+
+# 🔹 Environment variables (IMPORTANT)
+.env
+
+# 🔹 Build / distribution
+build/
+dist/
+*.egg-info/
+
+# 🔹 Coverage reports
+.coverage
+htmlcov/
+
+# 🔹 Cache
+.cache/
+
+# 🔹 SQLite database files
+*.db
+
+# 🔹 Node modules (if using JS)
+node_modules/
+
+# 🔹 Secrets / keys
+*.pem
+*.key
+*.crt
+
+# 🔹 Misc
+*.swp
+*.bak
