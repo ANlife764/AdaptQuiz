@@ -53,3 +53,6 @@ node_modules/
 # 🔹 Misc
 *.swp
 *.bak
+
+# Dataset
+data/
