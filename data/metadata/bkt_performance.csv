@@ -1,0 +1,2 @@
+best_model,accuracy,auc,precision,recall,f1_score,train_samples,test_samples,n_features
+Gradient Boosting,0.7566246802224905,0.7901223673963689,0.7727743640191423,0.9115214399627789,0.8364331246230549,2052334,522629,15

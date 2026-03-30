@@ -1,0 +1,5 @@
+strategy,weak_percentage,skill_diversity,unique_skills
+balanced,0.603,0.33799999999999997,3.38
+random,0.157,0.7020000000000001,7.02
+threshold,0.79,0.333,3.33
+weakest_first,0.627,0.377,3.77
