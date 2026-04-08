@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adapt-Quiz | Personalized Adaptive Learning</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <h1>🎯 Adapt-Quiz</h1>
+            <p class="tagline">Personalized Learning Through Adaptive Questions</p>
+        </header>
+
+        <!-- Main Quiz Area -->
+        <main>
+            <!-- Start Screen -->
+            <div id="start-screen" class="screen active">
+                <div class="card">
+                    <h2>Welcome to Adapt-Quiz!</h2>
+                    <p>This quiz adapts to your knowledge level and focuses on your weak areas.</p>
+                    
+                    <div class="features">
+                        <div class="feature">🎯 Adaptive difficulty based on your performance</div>
+                        <div class="feature">⚡ Real-time question selection</div>
+                        <div class="feature">🏆 Points and streak rewards</div>
+                        <div class="feature">📊 Detailed progress tracking</div>
+                    </div>
+                    
+                    <div class="input-group">
+                        <input type="text" id="student-name" placeholder="Enter your name (optional)">
+                        <button id="start-btn" class="btn-primary">Start Quiz →</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quiz Screen -->
+            <div id="quiz-screen" class="screen">
+                <!-- Stats Bar -->
+                <div class="stats-bar">
+                    <div class="stat">
+                        <span class="stat-label">Score</span>
+                        <span class="stat-value" id="score">0</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-label">Streak</span>
+                        <span class="stat-value" id="streak">0</span>
+                        <span class="streak-fire">🔥</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-label">Questions</span>
+                        <span class="stat-value" id="q-count">0</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-label">Accuracy</span>
+                        <span class="stat-value" id="accuracy">0%</span>
+                    </div>
+                </div>
+
+                <!-- Question Card -->
+                <div class="question-card">
+                    <div class="skill-badge" id="skill-badge">Loading...</div>
+                    <div class="mastery-indicator">
+                        <span>Your mastery: </span>
+                        <div class="mastery-bar">
+                            <div class="mastery-fill" id="mastery-fill" style="width: 0%"></div>
+                        </div>
+                        <span id="mastery-value">0%</span>
+                    </div>
+                    <h2 id="question-text">Loading question...</h2>
+                    <div class="options" id="options">
+                        <button class="option-btn">Option 1</button>
+                        <button class="option-btn">Option 2</button>
+                        <button class="option-btn">Option 3</button>
+                        <button class="option-btn">Option 4</button>
+                    </div>
+                    <div class="feedback" id="feedback"></div>
+                    <button id="next-btn" class="btn-next" style="display: none;">Next Question →</button>
+                </div>
+
+                <!-- Progress Section -->
+                <div class="progress-section">
+                    <h3>📊 Your Progress</h3>
+                    <div class="skill-progress" id="skill-progress">
+                        <p>Answer questions to see your skill progress...</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Results Screen -->
+            <div id="results-screen" class="screen">
+                <div class="card">
+                    <h2>🎉 Quiz Complete!</h2>
+                    <div class="results-summary" id="results-summary"></div>
+                    <button id="restart-btn" class="btn-primary">Take Another Quiz</button>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <p>Adapt-Quiz | Powered by Knowledge Tracing | Personalized Learning</p>
+        </footer>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

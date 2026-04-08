@@ -1,0 +1,392 @@
+{
+    "Absolute Value": [
+        {
+            "id": 1,
+            "question": "What is | -5 |?",
+            "options": ["-5", "0", "5", "10"],
+            "correct": "5",
+            "difficulty": 0.2,
+            "explanation": "Absolute value is the distance from zero, always positive."
+        },
+        {
+            "id": 2,
+            "question": "What is | 7 |?",
+            "options": ["-7", "0", "7", "14"],
+            "correct": "7",
+            "difficulty": 0.1,
+            "explanation": "Absolute value of a positive number is the number itself."
+        },
+        {
+            "id": 3,
+            "question": "What is | -12 + 5 |?",
+            "options": ["-7", "7", "17", "-17"],
+            "correct": "7",
+            "difficulty": 0.4,
+            "explanation": "First compute -12 + 5 = -7, then absolute value is 7."
+        }
+    ],
+    "Addition Mixed Fractions": [
+        {
+            "id": 4,
+            "question": "What is 1 1/2 + 2 1/4?",
+            "options": ["3 1/4", "3 3/4", "4 1/4", "3 1/2"],
+            "correct": "3 3/4",
+            "difficulty": 0.4,
+            "explanation": "Add whole numbers: 1+2=3, fractions: 1/2=2/4, so 2/4+1/4=3/4 → 3 3/4"
+        },
+        {
+            "id": 5,
+            "question": "What is 2 1/3 + 1 1/3?",
+            "options": ["3 1/3", "3 2/3", "4 1/3", "3"],
+            "correct": "3 2/3",
+            "difficulty": 0.3,
+            "explanation": "Add whole: 2+1=3, fractions: 1/3+1/3=2/3 → 3 2/3"
+        }
+    ],
+    "Addition Proper Fractions": [
+        {
+            "id": 6,
+            "question": "What is 1/3 + 1/3?",
+            "options": ["1/6", "2/3", "1/3", "2/6"],
+            "correct": "2/3",
+            "difficulty": 0.2,
+            "explanation": "Add numerators: 1+1=2, denominator stays 3 → 2/3"
+        },
+        {
+            "id": 7,
+            "question": "What is 1/4 + 1/2?",
+            "options": ["1/6", "2/6", "3/4", "2/4"],
+            "correct": "3/4",
+            "difficulty": 0.3,
+            "explanation": "1/2 = 2/4, so 1/4 + 2/4 = 3/4"
+        }
+    ],
+    "Addition Whole Numbers": [
+        {
+            "id": 8,
+            "question": "What is 145 + 237?",
+            "options": ["372", "382", "392", "482"],
+            "correct": "382",
+            "difficulty": 0.2,
+            "explanation": "145 + 237 = 382"
+        },
+        {
+            "id": 9,
+            "question": "What is 999 + 1?",
+            "options": ["998", "999", "1000", "1001"],
+            "correct": "1000",
+            "difficulty": 0.1,
+            "explanation": "999 + 1 = 1000"
+        }
+    ],
+    "Addition and Subtraction Fractions": [
+        {
+            "id": 10,
+            "question": "What is 3/4 - 1/4?",
+            "options": ["1/2", "1/4", "2/4", "1"],
+            "correct": "1/2",
+            "difficulty": 0.2,
+            "explanation": "3/4 - 1/4 = 2/4 = 1/2"
+        },
+        {
+            "id": 11,
+            "question": "What is 1/2 + 1/4?",
+            "options": ["1/4", "3/4", "1/2", "2/3"],
+            "correct": "3/4",
+            "difficulty": 0.3,
+            "explanation": "1/2 = 2/4, so 2/4 + 1/4 = 3/4"
+        }
+    ],
+    "Addition and Subtraction Integers": [
+        {
+            "id": 12,
+            "question": "What is -5 + 3?",
+            "options": ["-8", "-2", "2", "8"],
+            "correct": "-2",
+            "difficulty": 0.3,
+            "explanation": "Start at -5, move right 3 → -2"
+        },
+        {
+            "id": 13,
+            "question": "What is 7 - (-2)?",
+            "options": ["-9", "-5", "5", "9"],
+            "correct": "9",
+            "difficulty": 0.4,
+            "explanation": "Subtracting negative = adding: 7 + 2 = 9"
+        }
+    ],
+    "Addition and Subtraction Positive Decimals": [
+        {
+            "id": 14,
+            "question": "What is 0.5 + 0.25?",
+            "options": ["0.65", "0.70", "0.75", "0.80"],
+            "correct": "0.75",
+            "difficulty": 0.2,
+            "explanation": "0.5 + 0.25 = 0.75"
+        },
+        {
+            "id": 15,
+            "question": "What is 1.5 - 0.75?",
+            "options": ["0.5", "0.65", "0.7", "0.75"],
+            "correct": "0.75",
+            "difficulty": 0.3,
+            "explanation": "1.5 - 0.75 = 0.75"
+        }
+    ],
+    "Algebraic Simplification": [
+        {
+            "id": 16,
+            "question": "Simplify: 3x + 2x",
+            "options": ["5x", "6x", "x", "5x²"],
+            "correct": "5x",
+            "difficulty": 0.2,
+            "explanation": "Combine like terms: 3 + 2 = 5, so 5x"
+        },
+        {
+            "id": 17,
+            "question": "Simplify: 4x - 2x + 5",
+            "options": ["2x + 5", "6x + 5", "2x + 5x", "7x"],
+            "correct": "2x + 5",
+            "difficulty": 0.3,
+            "explanation": "Combine x terms: 4x - 2x = 2x, then +5"
+        }
+    ],
+    "Algebraic Solving": [
+        {
+            "id": 18,
+            "question": "Solve: x + 5 = 12",
+            "options": ["5", "7", "12", "17"],
+            "correct": "7",
+            "difficulty": 0.2,
+            "explanation": "Subtract 5 from both sides: x = 12 - 5 = 7"
+        },
+        {
+            "id": 19,
+            "question": "Solve: 2x = 10",
+            "options": ["2", "5", "10", "20"],
+            "correct": "5",
+            "difficulty": 0.2,
+            "explanation": "Divide both sides by 2: x = 10 ÷ 2 = 5"
+        }
+    ],
+    "Area Circle": [
+        {
+            "id": 20,
+            "question": "Area of circle with radius 5? (Use π = 3.14)",
+            "options": ["31.4", "78.5", "15.7", "314"],
+            "correct": "78.5",
+            "difficulty": 0.4,
+            "explanation": "Area = πr² = 3.14 × 25 = 78.5"
+        }
+    ],
+    "Area Rectangle": [
+        {
+            "id": 21,
+            "question": "Area of rectangle with length 8 and width 3?",
+            "options": ["22", "24", "11", "16"],
+            "correct": "24",
+            "difficulty": 0.2,
+            "explanation": "Area = length × width = 8 × 3 = 24"
+        }
+    ],
+    "Area Triangle": [
+        {
+            "id": 22,
+            "question": "Area of triangle with base 6 and height 4?",
+            "options": ["12", "24", "10", "8"],
+            "correct": "12",
+            "difficulty": 0.3,
+            "explanation": "Area = (base × height)/2 = (6×4)/2 = 12"
+        }
+    ],
+    "Circumference": [
+        {
+            "id": 23,
+            "question": "Circumference of circle with radius 7? (Use π = 3.14)",
+            "options": ["21.98", "43.96", "14", "28"],
+            "correct": "43.96",
+            "difficulty": 0.4,
+            "explanation": "Circumference = 2πr = 2 × 3.14 × 7 = 43.96"
+        }
+    ],
+    "Combining Like Terms": [
+        {
+            "id": 24,
+            "question": "Simplify: 5a + 3b - 2a + 4b",
+            "options": ["3a + 7b", "7a + 7b", "3a + b", "7a + b"],
+            "correct": "3a + 7b",
+            "difficulty": 0.4,
+            "explanation": "Combine a terms: 5a - 2a = 3a, b terms: 3b + 4b = 7b → 3a + 7b"
+        }
+    ],
+    "Decimals": [
+        {
+            "id": 25,
+            "question": "What is 0.75 as a fraction?",
+            "options": ["1/2", "3/4", "2/3", "4/5"],
+            "correct": "3/4",
+            "difficulty": 0.2,
+            "explanation": "0.75 = 75/100 = 3/4"
+        }
+    ],
+    "Distributive Property": [
+        {
+            "id": 26,
+            "question": "Expand: 2(x + 3)",
+            "options": ["2x + 3", "2x + 6", "x + 6", "2x + 5"],
+            "correct": "2x + 6",
+            "difficulty": 0.3,
+            "explanation": "Distribute: 2 × x = 2x, 2 × 3 = 6 → 2x + 6"
+        }
+    ],
+    "Equation Solving Two or Fewer Steps": [
+        {
+            "id": 27,
+            "question": "Solve: 3x = 15",
+            "options": ["3", "5", "15", "45"],
+            "correct": "5",
+            "difficulty": 0.2,
+            "explanation": "Divide both sides by 3: x = 5"
+        }
+    ],
+    "Fractions": [
+        {
+            "id": 28,
+            "question": "Simplify 6/8",
+            "options": ["2/3", "3/4", "1/2", "4/5"],
+            "correct": "3/4",
+            "difficulty": 0.2,
+            "explanation": "Divide numerator and denominator by 2: 3/4"
+        }
+    ],
+    "Geometry": [
+        {
+            "id": 29,
+            "question": "What is the perimeter of a square with side 6?",
+            "options": ["24", "36", "12", "18"],
+            "correct": "24",
+            "difficulty": 0.2,
+            "explanation": "Perimeter = 4 × side = 4 × 6 = 24"
+        }
+    ],
+    "Mean": [
+        {
+            "id": 30,
+            "question": "Find the mean: 4, 6, 8, 10",
+            "options": ["6", "7", "8", "9"],
+            "correct": "7",
+            "difficulty": 0.3,
+            "explanation": "Sum = 28, divide by 4 = 7"
+        }
+    ],
+    "Median": [
+        {
+            "id": 31,
+            "question": "Find the median: 3, 7, 2, 9, 5",
+            "options": ["3", "5", "7", "9"],
+            "correct": "5",
+            "difficulty": 0.3,
+            "explanation": "Order: 2,3,5,7,9 → middle is 5"
+        }
+    ],
+    "Mode": [
+        {
+            "id": 32,
+            "question": "Find the mode: 2, 4, 4, 6, 8",
+            "options": ["2", "4", "6", "8"],
+            "correct": "4",
+            "difficulty": 0.2,
+            "explanation": "4 appears most frequently (twice)"
+        }
+    ],
+    "Multiplication Fractions": [
+        {
+            "id": 33,
+            "question": "What is 1/2 × 3/4?",
+            "options": ["1/8", "3/8", "1/4", "3/4"],
+            "correct": "3/8",
+            "difficulty": 0.3,
+            "explanation": "Multiply numerators: 1×3=3, denominators: 2×4=8 → 3/8"
+        }
+    ],
+    "Order of Operations": [
+        {
+            "id": 34,
+            "question": "Simplify: 3 + 4 × 2",
+            "options": ["14", "11", "10", "8"],
+            "correct": "11",
+            "difficulty": 0.3,
+            "explanation": "Multiplication first: 4×2=8, then 3+8=11"
+        }
+    ],
+    "Percents": [
+        {
+            "id": 35,
+            "question": "What is 25% of 80?",
+            "options": ["10", "15", "20", "25"],
+            "correct": "20",
+            "difficulty": 0.2,
+            "explanation": "25% = 1/4, so 80 ÷ 4 = 20"
+        }
+    ],
+    "Perimeter of a Polygon": [
+        {
+            "id": 36,
+            "question": "Perimeter of rectangle with length 10 and width 5?",
+            "options": ["15", "30", "50", "20"],
+            "correct": "30",
+            "difficulty": 0.2,
+            "explanation": "Perimeter = 2(10+5) = 2×15 = 30"
+        }
+    ],
+    "Probability of a Single Event": [
+        {
+            "id": 37,
+            "question": "Probability of rolling a 4 on a fair die?",
+            "options": ["1/2", "1/4", "1/6", "1/3"],
+            "correct": "1/6",
+            "difficulty": 0.2,
+            "explanation": "One favorable outcome out of 6 possible outcomes"
+        }
+    ],
+    "Pythagorean Theorem": [
+        {
+            "id": 38,
+            "question": "Right triangle legs: 3 and 4. Find hypotenuse?",
+            "options": ["5", "6", "7", "8"],
+            "correct": "5",
+            "difficulty": 0.4,
+            "explanation": "3² + 4² = 9+16=25, √25=5"
+        }
+    ],
+    "Range": [
+        {
+            "id": 39,
+            "question": "Find the range: 5, 12, 8, 20, 15",
+            "options": ["5", "12", "15", "20"],
+            "correct": "15",
+            "difficulty": 0.2,
+            "explanation": "Range = max - min = 20 - 5 = 15"
+        }
+    ],
+    "Ratios": [
+        {
+            "id": 40,
+            "question": "Simplify ratio 6:9",
+            "options": ["1:2", "2:3", "3:4", "1:3"],
+            "correct": "2:3",
+            "difficulty": 0.2,
+            "explanation": "Divide both by 3 → 2:3"
+        }
+    ],
+    "Volume of Rectangular Prism": [
+        {
+            "id": 41,
+            "question": "Volume of prism with length 5, width 3, height 4?",
+            "options": ["12", "60", "20", "15"],
+            "correct": "60",
+            "difficulty": 0.3,
+            "explanation": "Volume = length × width × height = 5×3×4 = 60"
+        }
+    ]
+}
