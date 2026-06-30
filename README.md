@@ -107,6 +107,3 @@ This reads `data/processed/cleaned_data.parquet` and writes the model artifacts 
 - `02_diff_models.ipynb` – trains and compares Logistic Regression, Random Forest, and Gradient Boosting models.
 - `03_adaptive_quiz.ipynb` – simulates and evaluates adaptive question-selection strategies.
 
-## License
-
-Add a license of your choice here.
